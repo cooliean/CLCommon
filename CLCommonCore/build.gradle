@@ -32,7 +32,7 @@ dependencies {
 
 def siteUrl = "https://github.com/cooliean/CLCommon"
 def gitUrl = "https://github.com/cooliean/CLCommon.git"
-group = "com.cooliean"
+group = "com.cooliean.common"
 
 install {
     repositories.mavenInstaller {
@@ -40,7 +40,6 @@ install {
         pom {
             project {
                 packaging 'jar'
-
                 // Add your description here
                 name 'My common Android lib'
                 url siteUrl
