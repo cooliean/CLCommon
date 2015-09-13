@@ -39,7 +39,7 @@ install {
         // This generates POM.xml with proper paramters
         pom {
             project {
-                packaging 'jar'
+                packaging 'aar'
                 // Add your description here
                 name 'My common Android lib'
                 url siteUrl
