@@ -41,7 +41,7 @@ install {
             project {
                 packaging 'aar'
                 // Add your description here
-                name 'Common Android Utils'
+                name 'Android Common Utils'
                 url siteUrl
 
                 // Set your license
