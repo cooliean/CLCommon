@@ -7,7 +7,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.LinkedBlockingDeque;
 
 import android.os.Handler;
-import com.cits.epark.mobile.ietree.utils.common.AppUtils;
+
+import com.cooliean.common.core.utils.AppUtils;
 
 
 /**
@@ -19,7 +20,7 @@ import com.cits.epark.mobile.ietree.utils.common.AppUtils;
  */
 public class FTaskLinkedPool extends FTask {
     private BlockingQueue<?> queue = null;
-    private ExecutorService service = Executors.newFixedThreadPool(AppUtils.getNumCores() * 5);
+    private ExecutorService service = Executors.newFixedThreadPool(AppUtils.getNumCores() * 3);
     private Handler handler = new Handler();
     private FTaskCustomer<?> customer = null;
 

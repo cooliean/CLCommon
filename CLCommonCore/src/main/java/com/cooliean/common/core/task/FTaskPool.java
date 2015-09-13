@@ -1,7 +1,8 @@
 package com.cooliean.common.core.task;
 
 import android.os.Handler;
-import com.cits.epark.mobile.ietree.utils.common.AppUtils;
+
+import com.cooliean.common.core.utils.AppUtils;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
