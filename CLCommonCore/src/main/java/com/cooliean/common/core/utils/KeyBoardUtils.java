@@ -4,16 +4,15 @@ import android.app.Activity;
 import android.content.Context;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-import com.cits.epark.mobile.ietree.base.AppApplication;
 
 /**
  * Created by Cooliean on 15/8/4.
  */
 public class KeyBoardUtils {
-    public static void hideSoftKeyboard(View view) {
+    public static void hideSoftKeyboard(Context context,View view) {
         if (view == null)
             return;
-        ((InputMethodManager) AppApplication.context().getSystemService(
+        ((InputMethodManager) context.getSystemService(
                 Context.INPUT_METHOD_SERVICE)).hideSoftInputFromWindow(
                 view.getWindowToken(), 0);
     }

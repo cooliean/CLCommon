@@ -5,7 +5,6 @@ import android.os.Environment;
 import android.os.StatFs;
 import android.util.Log;
 
-import com.cits.epark.mobile.ietree.base.Constants;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -641,20 +640,16 @@ public class FileUtil {
             return null;
         }
         if (checkExistSD()) {
-            LoggerHelper.error(FileUtil.class,"getAppTempDir");
-            savePath = Environment.getExternalStorageDirectory()
-                    + Constants.APP_TEMP_DIR + File.separator + dir;
+            savePath = Environment.getExternalStorageDirectory() + dir;
             if (!checkFilePathExists(savePath)) {
-                LoggerHelper.error(FileUtil.class,"checkFilePathExists");
                 boolean success = new File(savePath).mkdirs();
                 if (!success) {
-                    LoggerHelper.error(FileUtil.class, "Create Dir Fail! path = " + savePath);
+                    Log.e("FileUtil.class", "Create Dir Fail! path = " + savePath);
                 }
             }
         } else {
-            savePath = getAppCache(context, Constants.APP_TEMP_DIR + File.separator + dir);
+            savePath = getAppCache(context, dir);
         }
-        LoggerHelper.error(FileUtil.class,savePath);
         return savePath;
     }
 
