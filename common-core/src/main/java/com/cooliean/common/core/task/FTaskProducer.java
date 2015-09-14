@@ -3,8 +3,6 @@ package com.cooliean.common.core.task;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 
-import android.util.Log;
-
 /**
  * 生产者线程
  * @author fanj 2015-6-8

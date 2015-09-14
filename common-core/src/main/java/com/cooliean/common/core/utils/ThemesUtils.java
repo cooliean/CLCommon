@@ -1,15 +1,5 @@
 package com.cooliean.common.core.utils;
 
-import android.app.Activity;
-import android.content.Context;
-import android.content.res.TypedArray;
-import android.graphics.Color;
-import android.os.Build;
-import android.support.annotation.AttrRes;
-import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
-
 
 /**
  * Created by Cooliean on 15/7/29.

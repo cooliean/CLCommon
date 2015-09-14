@@ -1,11 +1,11 @@
 package com.cooliean.common.core.task;
 
 
+import android.os.Handler;
+
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
-import android.os.Handler;
 
 /**
  * 同步线程队列

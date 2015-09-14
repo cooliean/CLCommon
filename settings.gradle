@@ -1,1 +1,1 @@
-include ':sample', ':CLCommonCore'
+include ':sample', ':common-core'

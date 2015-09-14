@@ -1,11 +1,5 @@
 package com.cooliean.common.core.utils;
 
-import android.app.Activity;
-import android.os.Handler;
-import android.os.Looper;
-import android.view.KeyEvent;
-import android.widget.Toast;
-
 /**
  * Created by Cooliean on 15/8/4.
  */

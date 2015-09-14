@@ -1,14 +1,14 @@
 package com.cooliean.common.core.task;
 
 
+import android.os.Handler;
+
+import com.cooliean.common.core.utils.AppUtils;
+
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.LinkedBlockingDeque;
-
-import android.os.Handler;
-
-import com.cooliean.common.core.utils.AppUtils;
 
 
 /**

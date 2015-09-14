@@ -1,8 +1,6 @@
 package com.cooliean.common.core.utils;
 
 import android.content.Context;
-import android.content.res.Resources;
-import android.util.TypedValue;
 
 /**
  * Created by Cooliean on 15/8/15.

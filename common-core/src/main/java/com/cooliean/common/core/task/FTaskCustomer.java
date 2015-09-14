@@ -1,9 +1,9 @@
 package com.cooliean.common.core.task;
 
-import java.util.concurrent.BlockingQueue;
-
 import android.os.Handler;
 import android.util.Log;
+
+import java.util.concurrent.BlockingQueue;
 
 /**
  * 消费者线程

@@ -1,8 +1,8 @@
 package com.cooliean.common.core.task;
 
-import java.util.concurrent.ExecutorService;
-
 import android.util.Log;
+
+import java.util.concurrent.ExecutorService;
 
 /**
  * 线程队列
