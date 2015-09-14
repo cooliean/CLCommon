@@ -39,7 +39,7 @@ install {
         // This generates POM.xml with proper paramters
         pom {
             project {
-                packaging 'jar'
+                packaging 'arr'
                 // Add your description here
                 name 'Android Common Utils'
                 url siteUrl
