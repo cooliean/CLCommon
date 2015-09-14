@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 // This is the library version used when deploying the artifact
-version = "1.0.0"
+version = "1.0.1"
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
@@ -102,7 +102,7 @@ bintray {
 
     pkg {
         repo = "maven"
-        name = "common-core"
+        name = "cl-common-core"
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]
